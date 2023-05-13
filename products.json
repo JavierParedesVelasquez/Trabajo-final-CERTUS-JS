@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name":"La Peso Pesado",
+        "price":"12.90",
+        "offer":"0.5",
+        "image":"la_peso_pesado.png"
+    },
+    {
+        "id": 2,
+        "name":"Hamburguesa Clásica Bembos",
+        "price":"16.90",
+        "offer":"0.5",
+        "image":"hamburguesa_clasica_bembos.png"
+    },
+    {
+        "id": 3,
+        "name":"Hamburguesa Cheese",
+        "price":"18.90",
+        "offer":"0.5",
+        "image":"hamburguesa_cheese.png"
+    },
+    {
+        "id": 4,
+        "name":"Hamburguesa Bembos Queso Tocino",
+        "price":"19.90",
+        "offer":"0.5",
+        "image":"hamburguesa_bembos_queso_tocino.png"
+    },
+    {
+        "id": 5,
+        "name":"Hamburguesa Royal",
+        "price":"19.90",
+        "offer":"0.5",
+        "image":"hamburguesa_royal.png"
+    },
+    {
+        "id": 6,
+        "name":"Hamburguesa Churrita",
+        "price":"20.90",
+        "offer":"0.5",
+        "image":"hamburguesita_churrita.png"
+    },
+    {
+        "id": 7,
+        "name":"Hamburguesa a lo Pobre",
+        "price":"20.90",
+        "offer":"0.5",
+        "image":"hamburguesa_a_lo_pobre.png"
+    },
+    {
+        "id": 8,
+        "name":"Hamburguesa Parrillera",
+        "price":"23.90",
+        "offer":"0.5",
+        "image":"hamburguesa_parrillera.png"
+    },
+    {
+        "id": 9,
+        "name":"Hamburguesa La Carretillera",
+        "price":"23.90",
+        "offer":"0.5",
+        "image":"hamburguesa_la_carretillera.png"
+    },
+    {
+        "id": 10,
+        "name":"Hamburguesa Extrema",
+        "price":"25.90",
+        "offer":"0.5",
+        "image":"hamburguesa_extrema.png"
+    }
+]

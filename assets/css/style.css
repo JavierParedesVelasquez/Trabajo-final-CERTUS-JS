@@ -1,0 +1,131 @@
+
+.header {
+    background-color: #173083;/*Color de fondo*/
+}
+
+a {
+    text-decoration: none;/*quitar decoracion por defecto a la etiqueta a*/
+}
+/*Colores predefinidos para la pagina bembos*/
+:root {
+    --color-primary: #173083;/*color primario*/
+    --color-secundary: #FBB905;/*color segundario*/
+    --color-tertiary: #FFFFFF;/*color terciario*/
+    --color-quaternary: #F6F7F8;/*color cuaternario*/
+}
+/*Cmabiando propiedades css de Bootstrap por defecto*/
+.btn-primary {
+    --bs-btn-color: #fff;/*color de texto de boton*/
+    --bs-btn-bg: #173083;/*color de fondo*/
+    --bs-btn-border-color: #173083;/*borde de boton*/
+    --bs-btn-hover-color: #fff;/*hover de texto*/
+    --bs-btn-hover-bg: #0b5ed7;/*hover de fondo*/
+    --bs-btn-hover-border-color: #0a58ca;/*hover de fondo de borde*/
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;/*shadow de boton sombra*/
+    --bs-btn-active-color: #fff;/*active para texto*/
+    --bs-btn-active-bg: #0a58ca;/*active para fondo*/
+    --bs-btn-active-border-color: #0a53be;/*active para borde*/
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);/*shadow sombra*/
+    --bs-btn-disabled-color: #fff;/*disable color de texto */
+    --bs-btn-disabled-bg: #173083;/*disable color de fondo*/
+    --bs-btn-disabled-border-color: #173083;/*disable color de borde*/
+}
+
+.body {
+    background-color: var(--color-quaternary) !important;/*color de fondo*/
+}
+
+.navbar {
+    background-color: var(--color-tertiary) !important;/*color de fondo*/
+    box-shadow: 0 5px 6px -3px rgba(0, 0, 0, .2);/*sombra*/
+}
+
+.bx-user {
+    color: var(--color-secundary);/*color de texto*/
+    font-size: 1.5rem;/*tamaño de texto*/
+}
+
+.bx-cart-alt {
+    color: var(--color-primary);/*color de texto*/
+    font-size: 1.8rem;/*tamaño de texto*/
+    font-weight: bold;/*negrita*/
+}
+
+.text_blue_menu {
+    color: var(--color-secundary);/*color de texto*/
+    font-family: 'Bebas Neue', sans-serif;/*tipo de letra*/
+    font-size: 1.5rem;/*tamaño de letra*/
+    font-weight: bold;/*negrita*/
+}
+
+.text_blue {
+    color: var(--color-primary) !important;/*color de texto*/
+    font-family: 'Bebas Neue', sans-serif;/*tipo de letra*/
+    font-size: 1.5rem;/*tamaño de texto*/
+}
+
+.text_blue_hamburguer {
+    color: var(--color-primary) !important;/*color de texto*/
+    font-family: 'Bebas Neue', sans-serif;/*tipo de letra*/
+    font-size: 1.8rem;/*tamaño de texto*/
+    margin-top: 150px;/*margin arriba*/
+}
+.text_blue_modal{
+    color: var(--color-primary) !important;/*color de texto*/
+    font-family: 'Bebas Neue', sans-serif;/*tipo de letra*/
+    font-size: 1.8rem !important;/*tamaño de texto*/
+}
+
+.active {
+    box-shadow: 0 5px 6px -3px rgba(255, 4, 4, 0.952);/*sombra roja*/
+}
+
+.text_blue:hover {
+    box-shadow: 0 5px 6px -3px rgba(255, 4, 4, 0.952);/*sombra roja*/
+}
+
+.card_previous_price {
+    color: #4d4d4d;/*color de texto*/
+    text-decoration: line-through;/*efecto raya*/
+    font-size: 1.3em;/*tamaño de texto*/
+}
+
+.card_descuento_price {
+    color: #000;/*color texto*/
+    font-weight: bold;/*negrita*/
+    font-size: 1.5em;/*tamaño de texto*/
+}
+
+.card_actual_price {
+    font-size: 1.8em;/*tamaño de texto*/
+    color: #ee0c0cef;/*color de texto*/
+    font-weight: bold;/*negrita*/
+}
+
+.card-title {
+    height: 55px;/*altura 55px*/
+    margin: auto;/*margin auto centrado*/
+}
+
+.modal-contenedor{
+    display: flex;/*activando flex*/
+    align-items: center;/*alinear centro*/
+    gap: 2rem;/*espacio entre los bloques*/
+    box-shadow: 0 2px 10px rgb(10 5 5 / 30%);/*sombra*/
+}
+.img-carrito {
+    width: 200px;/*ancho*/
+    padding: 20px;/*padding - espacios dentro del contenedor*/
+}
+.text_modal_p_1{
+    color: #ccc;/*color de texto*/
+    font-weight: 600;/*negrita 600*/
+    text-align: center;/*centrar texto*/
+    font-size: 1.4em;/*tamaño de texto*/
+}
+.text_modal_h4{
+    color: var(--color-primary);/*color texto*/
+    text-align: center;/*centrar texto*/
+    font-style: italic;/*clase italic a texto*/
+
+}
